@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^1.9.1",
     "jquery-slim": "^3.0.0",
     "npm": "^6.1.0",
