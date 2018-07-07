@@ -16,6 +16,8 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "jquery": "^1.9.1",
+    "jquery-slim": "^3.0.0",
+    "npm": "^6.1.0",
     "popper.js": "^1.12.9"
   }
 }

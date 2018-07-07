@@ -15,9 +15,24 @@
 
 </head>
 
-<body>
+<body class="body">
 
-    <header class="jumbotron">
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarm">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mx-auto" href="#">Ristorante Con Fusion</a>
+                <div class="collapse navbar-collapse  ml-sm-3" id="navbarm">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+        </nav>
+
+        <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -32,9 +47,13 @@
 
     <div class="container">
         <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
             <div class="col-12">
-               <h3>About Us</h3>
-               <hr>
+                <h3>About Us</h3>
+                <hr>
             </div>
         </div>
 
@@ -71,7 +90,7 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
@@ -107,6 +126,11 @@
         </div>
     </footer>
     
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery-slim/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
